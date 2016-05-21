@@ -1,0 +1,36 @@
+{
+  "name": "@lejeunerenard/three-improv",
+  "version": "1.0.0",
+  "description": "My way of generating a quick & dirty threejs setup for experiments.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && node test.js",
+    "lint": "standard | snazzy"
+  },
+  "bin": {
+    "three-improv": "bin/generate.js"
+  },
+  "author": "Sean Zellmer <sean@lejeunerenard.com> (http://lejeunerenard.com)",
+  "license": "MIT",
+  "dependencies": {
+    "defined": "^1.0.0",
+    "glob": "^7.0.3",
+    "init-package-json": "^1.9.4",
+    "npm": "^3.9.2",
+    "npm-package-arg": "^4.1.1",
+    "object-assign": "^4.1.0",
+    "semver": "^5.1.0",
+    "validate-npm-package-license": "^3.0.1",
+    "validate-npm-package-name": "^2.2.2",
+    "vinyl-fs": "^2.4.3"
+  },
+  "standard": {
+    "ignore": [
+      "default.js"
+    ]
+  },
+  "devDependencies": {
+    "standard": "^7.1.0",
+    "snazzy": "^4.0.0"
+  }
+}
